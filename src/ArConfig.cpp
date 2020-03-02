@@ -24,11 +24,11 @@ Adept MobileRobots for information about a commercial version of ARIA at
 robots@mobilerobots.com or 
 Adept MobileRobots, 10 Columbia Drive, Amherst, NH 03031; +1-603-881-7960
 */
-#include "ArExport.h"
-#include "ariaOSDef.h"
-#include "ArConfig.h"
-#include "ArArgumentBuilder.h"
-#include "ArLog.h"
+#include <Aria/ArExport.h>
+#include <Aria/ariaOSDef.h>
+#include <Aria/ArConfig.h>
+#include <Aria/ArArgumentBuilder.h>
+#include <Aria/ArLog.h>
 
 #include <string>
 
@@ -2023,9 +2023,11 @@ AREXPORT bool ArConfig::parseText(const std::list<std::string> &configLines,
     if (curLine.empty()) {
       continue;
     }
+    #pragma GCC diagnostic push
+    #pragma GCC diagnostic warning "-fpermissive"
     snprintf(lineBuf, lineBufLen,
              curLine.c_str());
-
+    #pragma GCC diagnostic pop
     if (!myParser.parseLine(lineBuf, errorBuffer, errorBufferLen))
     {
       ret = false;

@@ -24,7 +24,7 @@ Adept MobileRobots for information about a commercial version of ARIA at
 robots@mobilerobots.com or 
 Adept MobileRobots, 10 Columbia Drive, Amherst, NH 03031; +1-603-881-7960
 */
-#include "ArExport.h"
+#include <Aria/ArExport.h>
 // ArThread.cc -- Thread classes
 
 
@@ -33,10 +33,10 @@ Adept MobileRobots, 10 Columbia Drive, Amherst, NH 03031; +1-603-881-7960
 #include <sched.h>
 #include <sys/types.h>
 #include <unistd.h>
-#include "ariaOSDef.h"
-#include "ArThread.h"
-#include "ArLog.h"
-#include "ArSignalHandler.h"
+#include <Aria/ariaOSDef.h>
+#include <Aria/ArThread.h>
+#include <Aria/ArLog.h>
+#include <Aria/ArSignalHandler.h>
 
 #ifndef MINGW
 #include <sys/syscall.h>

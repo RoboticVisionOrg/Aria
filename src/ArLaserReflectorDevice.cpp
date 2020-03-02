@@ -24,11 +24,11 @@ Adept MobileRobots for information about a commercial version of ARIA at
 robots@mobilerobots.com or 
 Adept MobileRobots, 10 Columbia Drive, Amherst, NH 03031; +1-603-881-7960
 */
-#include "ArExport.h"
-#include "ariaOSDef.h"
-#include "ArSick.h"
-#include "ArLaserReflectorDevice.h"
-#include "ArRobot.h"
+#include <Aria/ArExport.h>
+#include <Aria/ariaOSDef.h>
+#include <Aria/ArSick.h>
+#include <Aria/ArLaserReflectorDevice.h>
+#include <Aria/ArRobot.h>
 
 AREXPORT ArLaserReflectorDevice::ArLaserReflectorDevice(ArRangeDevice *laser,
 							ArRobot *robot,

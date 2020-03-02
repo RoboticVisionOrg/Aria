@@ -24,20 +24,20 @@ Adept MobileRobots for information about a commercial version of ARIA at
 robots@mobilerobots.com or 
 Adept MobileRobots, 10 Columbia Drive, Amherst, NH 03031; +1-603-881-7960
 */
-#include "ArExport.h"
-#include "ariaOSDef.h"
-#include "ArMode.h"
-#include "ArModes.h"
-#include "ArKeyHandler.h"
-#include "ArSonyPTZ.h"
-#include "ArVCC4.h"
-#include "ArDPPTU.h"
-#include "ArAMPTU.h"
-#include "ArRVisionPTZ.h"
-#include "ArSick.h"
-#include "ArAnalogGyro.h"
-#include "ArRobotConfigPacketReader.h"
-#include "ariaInternal.h"
+#include <Aria/ArExport.h>
+#include <Aria/ariaOSDef.h>
+#include <Aria/ArMode.h>
+#include <Aria/ArModes.h>
+#include <Aria/ArKeyHandler.h>
+#include <Aria/ArSonyPTZ.h>
+#include <Aria/ArVCC4.h>
+#include <Aria/ArDPPTU.h>
+#include <Aria/ArAMPTU.h>
+#include <Aria/ArRVisionPTZ.h>
+#include <Aria/ArSick.h>
+#include <Aria/ArAnalogGyro.h>
+#include <Aria/ArRobotConfigPacketReader.h>
+#include <Aria/ariaInternal.h>
 
 /** 
   @param robot ArRobot instance to be associate with

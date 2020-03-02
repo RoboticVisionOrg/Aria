@@ -24,15 +24,15 @@ Adept MobileRobots for information about a commercial version of ARIA at
 robots@mobilerobots.com or 
 Adept MobileRobots, 10 Columbia Drive, Amherst, NH 03031; +1-603-881-7960
 */
-#include "Aria.h"
-#include "ArExport.h"
+#include <Aria/Aria.h>
+#include <Aria/ArExport.h>
 #include "ArServerHandlerMap.h"
 #ifdef WIN32
 #include <sys/types.h>
 #include <sys/stat.h>
 #endif
 
-#include "ArMap.h"
+#include <Aria/ArMap.h>
 
 /**
    @param server the server to add our data too

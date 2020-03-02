@@ -36,7 +36,7 @@ Adept MobileRobots, 10 Columbia Drive, Amherst, NH 03031; +1-603-881-7960
  * names, as well as ARNL or MOGS documentation if you are using ARNL or MOGS.
  */
 
-#include "Aria.h"
+#include <Aria/Aria.h>
 #include "ArNetworking.h"
 #include "ArClientHandlerRobotUpdate.h"
 

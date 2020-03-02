@@ -26,11 +26,11 @@ Adept MobileRobots, 10 Columbia Drive, Amherst, NH 03031; +1-603-881-7960
 */
 #include <ctype.h>
 
-#include "ArExport.h"
-#include "ariaOSDef.h"
-#include "ArLogFileConnection.h"
-#include "ArLog.h"
-#include "ariaUtil.h"
+#include <Aria/ArExport.h>
+#include <Aria/ariaOSDef.h>
+#include <Aria/ArLogFileConnection.h>
+#include <Aria/ArLog.h>
+#include <Aria/ariaUtil.h>
 
 AREXPORT ArLogFileConnection::ArLogFileConnection()
 {

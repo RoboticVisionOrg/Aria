@@ -49,12 +49,12 @@ Adept MobileRobots, 10 Columbia Drive, Amherst, NH 03031; +1-603-881-7960
 
 %{
 #include <cstddef>
-#include "Aria.h"
+#include <Aria/Aria.h>
 #include "ArNetworking.h"
 #include "ArClientHandlerRobotUpdate.h"
 #include "ArClientRatioDrive.h"
 #include "ArServerModeJogPosition.h"
-#include "../include/wrapper_ExtraClasses.h"
+#include <Aria/wrapper_ExtraClasses.h>
 %}
 %warnfilter(451) ArUtil;
 
@@ -133,7 +133,7 @@ Adept MobileRobots, 10 Columbia Drive, Amherst, NH 03031; +1-603-881-7960
 #ifdef SWIGPYTHON
 
 %{
-#include "../include/wrapper_Functors.h"
+#include <Aria/wrapper_Functors.h>
 %}
 
 
@@ -286,7 +286,7 @@ Adept MobileRobots, 10 Columbia Drive, Amherst, NH 03031; +1-603-881-7960
 %include "ArServerUserInfo.h"
 %include "ArClientHandlerRobotUpdate.h"
 
-#include "../include/wrapper_ExtraClasses.h"
+#include <Aria/wrapper_ExtraClasses.h>
 
 %{
 /* End SWIG wraper.i for ArNetworking */

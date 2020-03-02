@@ -24,10 +24,10 @@ Adept MobileRobots for information about a commercial version of ARIA at
 robots@mobilerobots.com or 
 Adept MobileRobots, 10 Columbia Drive, Amherst, NH 03031; +1-603-881-7960
 */
-#include "Aria.h"
-#include "ArExport.h"
+#include <Aria/Aria.h>
+#include <Aria/ArExport.h>
 #include "ArServerUserInfo.h"
-#include "md5.h"
+#include <Aria/md5.h>
 
 AREXPORT ArServerUserInfo::ArServerUserInfo(const char *baseDirectory) :
   myV1HeaderCB(this, &ArServerUserInfo::v1HeaderCallback),

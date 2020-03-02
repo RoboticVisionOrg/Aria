@@ -25,13 +25,13 @@ robots@mobilerobots.com or
 Adept MobileRobots, 10 Columbia Drive, Amherst, NH 03031; +1-603-881-7960
 */
 
-#include "ArExport.h"
-#include "ariaOSDef.h"
-#include "ariaInternal.h"
-#include "ariaUtil.h"
-#include "ArTCM2.h"
-#include "ArTCMCompassDirect.h"
-#include "ArTCMCompassRobot.h"
+#include <Aria/ArExport.h>
+#include <Aria/ariaOSDef.h>
+#include <Aria/ariaInternal.h>
+#include <Aria/ariaUtil.h>
+#include <Aria/ArTCM2.h>
+#include <Aria/ArTCMCompassDirect.h>
+#include <Aria/ArTCMCompassRobot.h>
 
 AREXPORT ArTCM2::ArTCM2() :
   myHeading(0.0),

@@ -33,7 +33,7 @@ Adept MobileRobots, 10 Columbia Drive, Amherst, NH 03031; +1-603-881-7960
    of the server data entires in one convenient spot
 **/
 
-#include "Aria.h"
+#include <Aria/Aria.h>
 
 class ArServerClient;
 class ArNetPacket;

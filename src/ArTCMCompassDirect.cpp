@@ -25,12 +25,12 @@ robots@mobilerobots.com or
 Adept MobileRobots, 10 Columbia Drive, Amherst, NH 03031; +1-603-881-7960
 */
 
-#include "ArExport.h"
-#include "ariaOSDef.h"
-#include "ArTCMCompassDirect.h"
-#include "ArDeviceConnection.h"
-#include "ArSerialConnection.h"
-#include "ariaUtil.h"
+#include <Aria/ArExport.h>
+#include <Aria/ariaOSDef.h>
+#include <Aria/ArTCMCompassDirect.h>
+#include <Aria/ArDeviceConnection.h>
+#include <Aria/ArSerialConnection.h>
+#include <Aria/ariaUtil.h>
 
 //#define DEBUG_ARTCMCOMPASSDIRECT 1
 //#define DEBUG_ARTCMCOMPASSDIRECT_STATS 1

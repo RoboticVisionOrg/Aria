@@ -24,16 +24,16 @@ Adept MobileRobots for information about a commercial version of ARIA at
 robots@mobilerobots.com or 
 Adept MobileRobots, 10 Columbia Drive, Amherst, NH 03031; +1-603-881-7960
 */
-#include "Aria.h"
-#include "ArExport.h"
+#include <Aria/Aria.h>
+#include <Aria/ArExport.h>
 #include "ArMapChanger.h"
 
 #include <algorithm>
 #include <iterator>
 
-#include "ArFileParser.h"
-#include "ArMapUtils.h"
-#include "ArMD5Calculator.h"
+#include <Aria/ArFileParser.h>
+#include <Aria/ArMapUtils.h>
+#include <Aria/ArMD5Calculator.h>
 
 //#define ARDEBUG_MAP_CHANGER
 #ifdef ARDEBUG_MAP_CHANGER

@@ -27,8 +27,8 @@ Adept MobileRobots, 10 Columbia Drive, Amherst, NH 03031; +1-603-881-7960
 
 #define _GNU_SOURCE 1 // for isnormal() and other newer (non-ansi) C functions
 
-#include "ArExport.h"
-#include "ariaOSDef.h"
+#include <Aria/ArExport.h>
+#include <Aria/ariaOSDef.h>
 #include <sys/types.h>
 #include <sys/stat.h>
 #include <stdio.h>
@@ -52,24 +52,24 @@ Adept MobileRobots, 10 Columbia Drive, Amherst, NH 03031; +1-603-881-7960
 #endif
 
 
-#include "ariaInternal.h"
-#include "ariaTypedefs.h"
-#include "ariaUtil.h"
+#include <Aria/ariaInternal.h>
+#include <Aria/ariaTypedefs.h>
+#include <Aria/ariaUtil.h>
 
 #ifndef ARINTERFACE
-#include "ArSick.h"
-#include "ArUrg.h"
-#include "ArLMS1XX.h"
-#include "ArS3Series.h"
-#include "ArUrg_2_0.h"
-#include "ArSZSeries.h"
-#include "ArSonarMTX.h"
-#include "ArBatteryMTX.h"
-#include "ArLCDMTX.h"
+#include <Aria/ArSick.h>
+#include <Aria/ArUrg.h>
+#include <Aria/ArLMS1XX.h>
+#include <Aria/ArS3Series.h>
+#include <Aria/ArUrg_2_0.h>
+#include <Aria/ArSZSeries.h>
+#include <Aria/ArSonarMTX.h>
+#include <Aria/ArBatteryMTX.h>
+#include <Aria/ArLCDMTX.h>
 #endif // ARINTERFACE
 
-#include "ArSerialConnection.h"
-#include "ArTcpConnection.h"
+#include <Aria/ArSerialConnection.h>
+#include <Aria/ArTcpConnection.h>
 
 #ifdef WIN32
 #include <io.h>

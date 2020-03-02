@@ -24,15 +24,15 @@ Adept MobileRobots for information about a commercial version of ARIA at
 robots@mobilerobots.com or 
 Adept MobileRobots, 10 Columbia Drive, Amherst, NH 03031; +1-603-881-7960
 */
-#include "ArExport.h"
-#include "ariaOSDef.h"
+#include <Aria/ArExport.h>
+#include <Aria/ariaOSDef.h>
 #ifdef WIN32
 #else
 #include <dlfcn.h>
 #endif
-#include "ArModuleLoader.h"
-#include "ArModule.h"
-#include "ArLog.h"
+#include <Aria/ArModuleLoader.h>
+#include <Aria/ArModule.h>
+#include <Aria/ArLog.h>
 
 
 std::map<std::string, ArModuleLoader::DllRef> ArModuleLoader::ourModMap;

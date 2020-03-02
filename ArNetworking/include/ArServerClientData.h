@@ -27,7 +27,7 @@ Adept MobileRobots, 10 Columbia Drive, Amherst, NH 03031; +1-603-881-7960
 #ifndef ARSERVERCLIENTDATA_H
 #define ARSERVERCLIENTDATA_H
 
-#include "Aria.h"
+#include <Aria/Aria.h>
 
 class ArServerClientData
 {

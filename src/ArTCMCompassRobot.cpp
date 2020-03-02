@@ -24,11 +24,11 @@ Adept MobileRobots for information about a commercial version of ARIA at
 robots@mobilerobots.com or 
 Adept MobileRobots, 10 Columbia Drive, Amherst, NH 03031; +1-603-881-7960
 */
-#include "ariaOSDef.h"
-#include "ArExport.h"
-#include "ArCommands.h"
-#include "ArRobot.h"
-#include "ArTCMCompassRobot.h"
+#include <Aria/ariaOSDef.h>
+#include <Aria/ArExport.h>
+#include <Aria/ArCommands.h>
+#include <Aria/ArRobot.h>
+#include <Aria/ArTCMCompassRobot.h>
 
 AREXPORT ArTCMCompassRobot::ArTCMCompassRobot(ArRobot *robot) :
   myPacketHandlerCB(this, &ArTCMCompassRobot::packetHandler)

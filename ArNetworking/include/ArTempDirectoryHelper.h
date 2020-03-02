@@ -27,8 +27,8 @@ Adept MobileRobots, 10 Columbia Drive, Amherst, NH 03031; +1-603-881-7960
 #ifndef ARTEMPDIRECTORYHELPER_H
 #define ARTEMPDIRECTORYHELPER_H
 
-#include "ariaTypedefs.h"
-#include "ArFunctor.h"
+#include <Aria/ariaTypedefs.h>
+#include <Aria/ArFunctor.h>
 
 /// Helper class that manages the transition of temporary files to the base directory.
 class ArTempDirectoryHelper 

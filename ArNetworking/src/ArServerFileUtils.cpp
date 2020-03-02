@@ -25,8 +25,8 @@ robots@mobilerobots.com or
 Adept MobileRobots, 10 Columbia Drive, Amherst, NH 03031; +1-603-881-7960
 */
 #ifndef WIN32
-#include "Aria.h"
-#include "ArExport.h"
+#include <Aria/Aria.h>
+#include <Aria/ArExport.h>
 #include "ArServerFileUtils.h"
 
 #include <sys/types.h>

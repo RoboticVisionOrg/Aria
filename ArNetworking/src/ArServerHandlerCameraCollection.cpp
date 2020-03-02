@@ -24,12 +24,12 @@ Adept MobileRobots for information about a commercial version of ARIA at
 robots@mobilerobots.com or 
 Adept MobileRobots, 10 Columbia Drive, Amherst, NH 03031; +1-603-881-7960
 */
-#include "Aria.h"
-#include "ArExport.h"
+#include <Aria/Aria.h>
+#include <Aria/ArExport.h>
 #include "ArServerHandlerCameraCollection.h"
 
 
-#include <ArConfigArg.h>
+#include <Aria/ArConfigArg.h>
 #include "ArClientArgUtils.h"
 
 const char *ArServerHandlerCameraCollection::GET_COLLECTION_PACKET_NAME =

@@ -35,7 +35,7 @@ about connecting to the server may be given as command line options.
 For example, in C++:
 
 @code{.cpp}
-#include "Aria.h"
+#include <Aria/Aria.h>
 #include "ArNetworking.h"
   
 int main(int argc, char **argv)

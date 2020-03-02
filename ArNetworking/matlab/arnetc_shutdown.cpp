@@ -3,7 +3,7 @@
 /* MEX function for Matlab */
 
 #include "mex.h"
-#include "Aria.h"
+#include <Aria/Aria.h>
 #include <cstdint>
 
 void mexFunction(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[])

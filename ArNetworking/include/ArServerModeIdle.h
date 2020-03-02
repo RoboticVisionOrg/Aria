@@ -27,7 +27,7 @@ Adept MobileRobots, 10 Columbia Drive, Amherst, NH 03031; +1-603-881-7960
 #ifndef ARNETMODEIDLE_H
 #define ARNETMODEIDLE_H
 
-#include "Aria.h"
+#include <Aria/Aria.h>
 #include "ArServerMode.h"
 
 /// Mode that the ArServerMode infrastructure will activate if someone

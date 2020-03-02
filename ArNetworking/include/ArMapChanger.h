@@ -27,14 +27,14 @@ Adept MobileRobots, 10 Columbia Drive, Amherst, NH 03031; +1-603-881-7960
 #ifndef ARMAPCHANGER_H
 #define ARMAPCHANGER_H
 
-#include "ariaTypedefs.h"
-#include "ariaUtil.h"
+#include <Aria/ariaTypedefs.h>
+#include <Aria/ariaUtil.h>
 
 #include <list>
 
-#include <ArMapInterface.h>
-#include <ArMapUtils.h>
-#include <ArMutex.h>
+#include <Aria/ArMapInterface.h>
+#include <Aria/ArMapUtils.h>
+#include <Aria/ArMutex.h>
 
 #include "ArNetPacket.h"
 #include "ArCentralForwarder.h"

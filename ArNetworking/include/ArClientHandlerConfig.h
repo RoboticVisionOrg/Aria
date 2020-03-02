@@ -27,7 +27,7 @@ Adept MobileRobots, 10 Columbia Drive, Amherst, NH 03031; +1-603-881-7960
 #ifndef ARCLIENTCONFIGHANDLER_H
 #define ARCLIENTCONFIGHANDLER_H
 
-#include "Aria.h"
+#include <Aria/Aria.h>
 #include "ArClientBase.h"
 
 /// Client handler for receiving and updating ArConfig data via ArNetworking.

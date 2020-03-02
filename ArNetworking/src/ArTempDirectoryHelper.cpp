@@ -24,12 +24,12 @@ Adept MobileRobots for information about a commercial version of ARIA at
 robots@mobilerobots.com or 
 Adept MobileRobots, 10 Columbia Drive, Amherst, NH 03031; +1-603-881-7960
 */
-#include "ArExport.h"
+#include <Aria/ArExport.h>
 
 #include "ArTempDirectoryHelper.h"
 
-#include "ArLog.h"
-#include "ariaUtil.h"
+#include <Aria/ArLog.h>
+#include <Aria/ariaUtil.h>
 
 AREXPORT ArTempDirectoryHelper::ArTempDirectoryHelper
                                      (const char *baseDirectory,

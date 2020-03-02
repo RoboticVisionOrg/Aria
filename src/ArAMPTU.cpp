@@ -24,12 +24,12 @@ Adept MobileRobots for information about a commercial version of ARIA at
 robots@mobilerobots.com or 
 Adept MobileRobots, 10 Columbia Drive, Amherst, NH 03031; +1-603-881-7960
 */
-#include "ArExport.h"
-#include "ariaOSDef.h"
-#include "ArAMPTU.h"
-#include "ArCommands.h"
-#include "ArLog.h"
-#include "ArRobot.h"
+#include <Aria/ArExport.h>
+#include <Aria/ariaOSDef.h>
+#include <Aria/ArAMPTU.h>
+#include <Aria/ArCommands.h>
+#include <Aria/ArLog.h>
+#include <Aria/ArRobot.h>
 
 AREXPORT ArAMPTUPacket::ArAMPTUPacket(ArTypes::UByte2 bufferSize) :
   ArBasePacket(bufferSize, 3)

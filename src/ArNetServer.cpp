@@ -25,15 +25,15 @@ robots@mobilerobots.com or
 Adept MobileRobots, 10 Columbia Drive, Amherst, NH 03031; +1-603-881-7960
 */
 #include <ctype.h>
-#include "ArExport.h"
-#include "ariaOSDef.h"
-#include "ArNetServer.h"
-#include "ArRobot.h"
-#include "ArLog.h"
-#include "ariaUtil.h"
-#include "ArSyncTask.h"
-#include "ArArgumentBuilder.h"
-#include "ariaInternal.h"
+#include <Aria/ArExport.h>
+#include <Aria/ariaOSDef.h>
+#include <Aria/ArNetServer.h>
+#include <Aria/ArRobot.h>
+#include <Aria/ArLog.h>
+#include <Aria/ariaUtil.h>
+#include <Aria/ArSyncTask.h>
+#include <Aria/ArArgumentBuilder.h>
+#include <Aria/ariaInternal.h>
 
 
 ArNetServer::ArNetServer(bool addAriaExitCB, bool doNotAddShutdownServer,

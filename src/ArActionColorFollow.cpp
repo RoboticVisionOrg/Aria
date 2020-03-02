@@ -25,12 +25,12 @@ robots@mobilerobots.com or
 Adept MobileRobots, 10 Columbia Drive, Amherst, NH 03031; +1-603-881-7960
 */
 
-#include "ArExport.h"
+#include <Aria/ArExport.h>
 
-#include "ariaOSDef.h"
-#include "ArActionColorFollow.h"
-#include "ArResolver.h"
-#include "ArRobot.h"
+#include <Aria/ariaOSDef.h>
+#include <Aria/ArActionColorFollow.h>
+#include <Aria/ArResolver.h>
+#include <Aria/ArRobot.h>
 
 // Constructor: Initialize the color follow action
 AREXPORT ArActionColorFollow::ArActionColorFollow(const char *name, ArACTS_1_2 *acts, 

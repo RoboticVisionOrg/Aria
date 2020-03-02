@@ -24,9 +24,9 @@ Adept MobileRobots for information about a commercial version of ARIA at
 robots@mobilerobots.com or 
 Adept MobileRobots, 10 Columbia Drive, Amherst, NH 03031; +1-603-881-7960
 */
-#include "ArExport.h"
-#include "ariaUtil.h"
-#include "ArCameraCommands.h"
+#include <Aria/ArExport.h>
+#include <Aria/ariaUtil.h>
+#include <Aria/ArCameraCommands.h>
 
 
 AREXPORT const char *ArCameraCommands::GET_CAMERA_DATA = "getCameraData";

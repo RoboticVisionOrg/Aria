@@ -24,12 +24,12 @@ Adept MobileRobots for information about a commercial version of ARIA at
 robots@mobilerobots.com or 
 Adept MobileRobots, 10 Columbia Drive, Amherst, NH 03031; +1-603-881-7960
 */
-#include "ArExport.h"
-#include "ariaOSDef.h"
-#include "ArP2Arm.h"
-#include "ariaUtil.h"
-#include "ArLog.h"
-#include "ariaInternal.h"
+#include <Aria/ArExport.h>
+#include <Aria/ariaOSDef.h>
+#include <Aria/ArP2Arm.h>
+#include <Aria/ariaUtil.h>
+#include <Aria/ArLog.h>
+#include <Aria/ariaInternal.h>
 
 int ArP2Arm::NumJoints=6;
 const unsigned int ArP2Arm::ARMpac=0xa0;

@@ -3,7 +3,7 @@
 /* MEX function for Matlab */
 
 #include "mex.h"
-#include "Aria.h"
+#include <Aria/Aria.h>
 #include <cstdint>
 
 void mexLog(const char *s)

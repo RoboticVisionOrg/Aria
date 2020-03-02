@@ -27,10 +27,10 @@ Adept MobileRobots, 10 Columbia Drive, Amherst, NH 03031; +1-603-881-7960
 #ifndef ARSERVERHANDLERCAMERACOLLECTION_H
 #define ARSERVERHANDLERCAMERACOLLECTION_H
 
-#include <Aria.h>
-#include <ArExport.h>
-#include <ArFunctor.h>
-#include <ArCameraCollection.h>
+#include <Aria/Aria.h>
+#include <Aria/ArExport.h>
+#include <Aria/ArFunctor.h>
+#include <Aria/ArCameraCollection.h>
 
 #include "ArServerBase.h"
 #include "ArServerClient.h"

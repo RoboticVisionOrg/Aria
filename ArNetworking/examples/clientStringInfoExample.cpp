@@ -31,7 +31,7 @@ Adept MobileRobots, 10 Columbia Drive, Amherst, NH 03031; +1-603-881-7960
  * ArServerInfoStrings to publish the string info.
  */
 
-#include "Aria.h"
+#include <Aria/Aria.h>
 #include "ArNetworking.h"
 #include "ArClientHandlerRobotUpdate.h"
 #include <string>

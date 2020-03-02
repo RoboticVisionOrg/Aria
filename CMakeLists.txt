@@ -1,10 +1,12 @@
 cmake_minimum_required(VERSION 2.8.3)
-project(aria)
+project(rv_libaria)
 
 set(CMAKE_BUILD_TYPE Release)
 
 set(CMAKE_CXX_STANDARD 14)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wno-format -Wno-format-security")
 
 find_package(catkin REQUIRED)
 
@@ -19,7 +21,7 @@ find_package(catkin REQUIRED)
 ## CATKIN_DEPENDS: catkin_packages dependent projects also need
 ## DEPENDS: system dependencies of this project that dependent projects also need
 catkin_package(
-  LIBRARIES ${PROJECT_NAME} ArNetworking
+  LIBRARIES Aria ArNetworking
 )
 
 ###########
@@ -248,12 +250,12 @@ install(TARGETS Aria ArNetworking
    RUNTIME DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 )
 
-install(DIRECTORY include/
+install(DIRECTORY include/Aria/
   DESTINATION ${CATKIN_GLOBAL_INCLUDE_DESTINATION}/Aria
   FILES_MATCHING PATTERN "*.h" PATTERN "*.hpp"
 )
 
 install(DIRECTORY ArNetworking/include/
-  DESTINATION ${CATKIN_GLOBAL_INCLUDE_DESTINATION}/Aria/ArNetworking
+  DESTINATION ${CATKIN_GLOBAL_INCLUDE_DESTINATION}/ArNetworking
   FILES_MATCHING PATTERN "*.h" PATTERN "*.hpp"
 )
