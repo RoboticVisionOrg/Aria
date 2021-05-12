@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.8.3)
-project(rv_libaria)
+project(libaria)
 
 set(CMAKE_BUILD_TYPE Release)
 
